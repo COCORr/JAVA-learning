@@ -13,7 +13,7 @@ public class Example2 {
 		custNo = input.nextInt();
 
 		boolean isLuck = false;
-		// TODO1:获取会员卡号个十百千位的数字，加起来超过20就是幸运客户
+
       	int a,b,c,d;
       	a=custNo%10;
       	b=(custNo-a)%100/10;

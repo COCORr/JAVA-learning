@@ -7,14 +7,7 @@ public class Example4 {
 		   Scanner scanner = new Scanner(System.in);
 		   a = scanner.nextDouble();
 		   b = scanner.nextDouble();		  
-		   /*TODO
-		   功能说明：对a,b进行加减乘除运算，分别赋给变量c d e f
-		   参数说明：a,b,c,d,e,f为double型数据；
-		   a,b求和赋值给c
-		   a,b的差赋值给d
-		   a,b相乘赋值给e
-		   a,b相除赋值给f
-		   */
+		  
      		double c=a+b;
    		  	double d=a-b;
       		double e=a*b;

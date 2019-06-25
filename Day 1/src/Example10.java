@@ -11,11 +11,10 @@ public class Example10 {
    }
    
    public static void sum(int a,int n){
-       /*  TODO：变量定义long类型 */
+     
      	long x=a;
      	long s=a;
-       // 每项数值为：x(n)=x(n-1)*10 + a
-	   /* TODO：使用for循环 求1~n项的和 */
+      
      	for(int i=0;i<n-1;i++){
         	x=x*10+a;
           	s+=x;

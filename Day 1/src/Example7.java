@@ -15,7 +15,7 @@ public class Example7 {
     System.out.print("请输出数组内容：");
     //输出格式：数组元素1 数组元素2 数组元素3 数组元素4
     //例如：80 90 100 101
-    /** TODO：遍历输出数组a **/  
+     
     for(int j=0;j<4;j++){
       System.out.print(a[j]+" ");
     }

@@ -7,9 +7,7 @@ public class Example1 {
         Scanner reader=new Scanner(System.in);
         double sum=0;
         double x = reader.nextDouble();
-       //填写逻辑
-       // 输入0结束整个的输入操作
-	   /* TODO:循环判断，如果x不等于0的时候，计算输入数据的和 */
+     
       	while(x!=0){
        		sum+=x;
         	x=reader.nextDouble();  

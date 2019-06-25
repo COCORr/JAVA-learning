@@ -10,8 +10,7 @@ public class Example3 {
       Scanner scanner = new Scanner(System.in);
       //填写逻辑
 	  try{
-	  /* TODO:使用Scanner 获取byte、int、float、double类型
-      */
+	  
 	  	b=scanner.nextByte();
         n=scanner.nextInt();
         f=scanner.nextFloat();
@@ -28,11 +27,8 @@ public class Example3 {
       System.out.println("double=  "+d); 
       //填写逻辑
 	  // double转化float
-	  /*
-		TODO:将int强转化成byte
-	  */
-    
+	  
       
-      System.out.println("将int转化为byte导致精度缺失        int=  "+ (byte)n/* TODO:将int强转化成byte的结果 */);   
+      System.out.println("将int转化为byte导致精度缺失        int=  "+ (byte)n);   
    }
 }

@@ -12,11 +12,7 @@ public static void main(String args[ ]) {
 	   b = scanner.nextInt();
 	   System.out.println("交换前的值是 a="+a+",b="+b);
 	   
-	   /*
-	   TODO:
-	   功能说明：使用中间变量交换ab值   
-	   例如：中间变量可以定义为temp			
-	   */
+	   
 	   
 	   int temp;
   	   temp=a;
